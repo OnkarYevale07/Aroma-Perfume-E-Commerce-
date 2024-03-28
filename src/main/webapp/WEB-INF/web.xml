@@ -38,6 +38,12 @@
   	<description></description>
   	<servlet-class>com.servlets.deleteServlet</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>OrderPlacedServlet</servlet-name>
+  	<display-name>OrderPlacedServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.OrderServlet</servlet-class>
+  </servlet>
   <servlet-mapping>
   <servlet-name>RegisterServlet</servlet-name>
   <url-pattern>/RegisterServlet</url-pattern>
@@ -61,6 +67,10 @@
   <servlet-mapping>
   	<servlet-name>deleteServlet</servlet-name>
   	<url-pattern>/deleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>OrderPlacedServlet</servlet-name>
+  	<url-pattern>/OrderPlacedServlet</url-pattern>
   </servlet-mapping>
   <session-config>
   <session-timeout>

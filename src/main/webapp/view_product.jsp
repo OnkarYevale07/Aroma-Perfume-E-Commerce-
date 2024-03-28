@@ -89,7 +89,7 @@ Product product = list.get(0);
 						onclick="add_to_cart(<%=product.getpId()%>,'<%=product.getpName()%>',<%=product.getPriceAfterApplyingDiscount()%>)">Add
 						to Cart</button>
 					<button class="btn btn-warning w-50">
-						<a href="index.jsp" class="text-decoration-none text-dark">Continue
+						<a href="home.jsp" class="text-decoration-none text-dark">Continue
 							Shopping</a>
 					</button>
 				</div>

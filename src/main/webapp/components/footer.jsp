@@ -26,7 +26,7 @@
         </div>
       </div>
       <div class="col col-md-3 text-light">
-        <form action="@{/contact-form}" method="post">
+        <form action="mailto:onkaryevale0@gmail.com" method="post">
           <div class="mb-2">
             <label for="exampleFormControlInput1" class="form-label">Email</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email" required>
